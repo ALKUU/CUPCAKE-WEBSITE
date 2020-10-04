@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alka Cupcakes</title>
+    
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body{
+        font-family: 'Pacifico', cursive;
+        margin: 0px;
+        padding:0px;
+        background:url('image/552297-PK33Y8-631.jpg');
+        background-size:100%;
+        color: honeydew;
+    }
+    .btn{
+        font-family: 'Pacifico', cursive;
+        padding:2px 14px;
+        margin: 0px 9px;
+        color:white;
+        border-radius: 10px;
+        font-size: 15px;
+        background-color:#FFC0CB;
+        cursor:poiNter;
+        border-color: #FFC0CB;
+    }
+    .btn:hover{
+        background-color: papayawhip;
+    }
+    .container{
+        border: 2px solid white;
+        margin: 106px ;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 75px;
+        width: 33%;
+        border-radius: 28px;
+    }
+    .container button{
+        display: block;
+        width: 30%;
+        margin:20px auto;
+        border-color: #FFC0CB;
+    }
+    .container h1{
+        text-align: center;
+    }
+    .form-group input{
+        font-family:'Pacifico', cursive;
+        display: block;
+        padding: 1px;
+        margin: 7px auto;
+        font-size: 17px;
+        border-radius: 8px;
+        width: 300px;
+        border-color: #FFC0CB;
+    }
+    .left{
+        display: inline-block;
+        position: absolute;
+        left: 8px;
+        top: 8px;
+
+    }
+    .left img{
+        width:150px;
+    }
+    .mid{
+        
+        width: 43%;
+        margin:10px auto;
+
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        font: 25px;
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 2px 12px;
+    }
+    .navbar li a:hover,navbar li a.active{
+        color: white;
+        text-decoration:underline;
+        color: #FFC0CB;
+    }
+    .right{
+        
+        display: inline-block;
+        position: absolute;
+
+        right: 34px;
+        top: 20px;
+
+    }
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="image/af06ad41-37b1-4b15-a4b1-aa4522bb171c_200x200.png">
+
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Cupcakes</a></li>
+                <li><a href="#">We Cater</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+
+        </div>
+        <div class="right">
+            <button class="btn">Shipping</button>
+            <button class="btn">Order</button>
+            
+        </div>
+    </header>
+    <div class="container">
+        <h1>Visit the best cupcake shop</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter location">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter phone number ">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter name of cupcake">
+            </div>
+            <button class="btn">Order</button>
+
+        </form>
+    </div>
+    
+    
+    
+</body>
+</html>
